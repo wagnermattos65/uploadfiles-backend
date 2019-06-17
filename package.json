@@ -1,0 +1,8 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Upload de arquivos Backend",
+  "main": "index.js",
+  "author": "Wagner Mattos <github@wagnermattos.com> (https://wagnermattos.com/)",
+  "license": "MIT"
+}
