@@ -89,3 +89,6 @@ typings/
 
 # uploads
 tmp
+
+# credentials
+credentials/*.json
