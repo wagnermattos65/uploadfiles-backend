@@ -24,11 +24,12 @@ PostSchema.pre('save', function () {
   }
 });
 
+
 // eslint-disable-next-line func-names
 PostSchema.pre('remove', function () {
   if (process.env.STORAGE_TYPE === 's3') {
     return s3.deleteObject({
-      Bucket: 'wgnr8uploadfiles',
+      Bucket: process.env.AWS_BUCKET_NAME,
       Key: this.key,
     }).promise();
   }
