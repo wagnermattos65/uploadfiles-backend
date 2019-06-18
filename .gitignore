@@ -88,7 +88,8 @@ typings/
 .dynamodb/
 
 # uploads
-tmp
+tmp/uploads/*
+!tmp/uploads/.gitkeep
 
 # credentials
-credentials/*.json
+credentials
