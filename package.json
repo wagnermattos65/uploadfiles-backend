@@ -6,7 +6,7 @@
   "author": "Wagner Mattos <github@wagnermattos.com> (https://wagnermattos.com/)",
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.476.0",
+    "aws-sdk": "^2.814.0",
     "cors": "^2.8.5",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
